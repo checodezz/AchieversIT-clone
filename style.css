@@ -1,0 +1,56 @@
+header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #343a40;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+    color: white;
+}
+
+
+.topul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: larger;
+    margin-top: 3%;
+}
+
+.topul li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+option {
+    border: none;
+    border-color: #343a40;
+}
